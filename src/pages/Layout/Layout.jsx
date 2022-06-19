@@ -1,5 +1,5 @@
 import React from 'react';
-import Home from '../Home/Home'
+import Landing from '../Landing/Landing'
 import Navigation from '../../components/navigation/Navigation';
 
 
@@ -9,7 +9,7 @@ const Layout = () => {
     return(
        <div className="layout">
            <Navigation />
-           <Home />
+           <Landing />
        </div>
     );
 }

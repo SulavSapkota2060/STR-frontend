@@ -1,0 +1,17 @@
+body {
+    background: url("https://images.pexels.com/photos/610383/pexels-photo-610383.jpeg?auto=compress&cs=tinysrgb&w=1600") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+
+
+a {
+    text-decoration: none;
+    padding: 0px 15px 0px 15px;
+    font-size: 18px;
+    color: white;
+}
