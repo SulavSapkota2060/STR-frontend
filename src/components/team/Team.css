@@ -1,0 +1,29 @@
+.container{
+    display: block;
+}
+.container > h1{
+    text-align: center;
+    padding: 50px;
+}
+.ProfileHolder{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+img{
+    border-radius: 50%;
+}
+.ProfileContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}
+
+#name{
+    font-size: 20px;
+    font-weight: 600;
+}
+#designation{
+    font-size: 16px;
+}
