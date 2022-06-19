@@ -1,14 +1,9 @@
+
+
 .about {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 20px;
-    border: 1px solid #eee;
-    margin: 3% 20px;
-    box-shadow: 5px  10px  20px #eee;
-    height: 30vh;
-    align-items: center;
-    border-radius: 20px;
-    text-overflow: ellipsis;
+   height: 30vh;
 }
 
 .about .left{

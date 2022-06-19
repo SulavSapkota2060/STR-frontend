@@ -24,3 +24,13 @@ button:hover{
     background-color: red;
 }
 
+.box {
+   
+    padding: 20px;
+    border: 1px solid #eee;
+    margin: 3% 20px;
+    box-shadow: 5px  10px  20px #eee;
+    align-items: center;
+    border-radius: 20px;
+    text-overflow: ellipsis;
+}
