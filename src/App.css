@@ -1,13 +1,10 @@
-body {
-    background: url("https://images.pexels.com/photos/610383/pexels-photo-610383.jpeg?auto=compress&cs=tinysrgb&w=1600") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100vh;
-    color: white;
-}
 
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Franklin', sans-serif;
+}
 
 a {
     text-decoration: none;
@@ -15,3 +12,15 @@ a {
     font-size: 18px;
     color: white;
 }
+
+
+button{
+    background: none;
+    border: 1px solid black;
+    color: white;
+    padding: 10px;
+}
+button:hover{
+    background-color: red;
+}
+
