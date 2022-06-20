@@ -5,6 +5,25 @@
     text-align: center;
     padding: 50px;
 }
+
+.container .coordinators{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid #eee;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+.container .coordinators img{
+    max-height: 50%;
+    margin: 10px;
+}
+.container .coordinators .coordinator{
+    display: flex;
+    align-items: center;
+}
+
+
 .ProfileHolder{
     display: grid;
     grid-template-columns: 1fr 1fr 2fr;

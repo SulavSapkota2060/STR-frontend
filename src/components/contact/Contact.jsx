@@ -3,15 +3,15 @@ import './Contact.css'
 
 export const Contact = () => {
   return (
-    <div class='contact-block' >
-					<div class='container' >
-						<div class='row' >
-							<div class='row-container' >
+    <div className='contact-block' >
+					<div className='container' >
+						<div className='row' >
+							<div className='row-container' >
 							
-								<div class='section-header text-center' >
-									<h2 class='animate text-over-block' >Contact Form</h2>
+								<div className='section-header text-center' >
+									<h2 className='animate text-over-block' >Contact Form</h2>
 									{/* divider */}
-									<div class='divider-draft center' ></div>
+									<div className='divider-draft center' ></div>
 									{/* divider */}
 									<p>
 										For further queries, use the form below!
@@ -21,26 +21,26 @@ export const Contact = () => {
 							</div>
 						</div>
 						
-						<div class='row' >
-							<div class='row-container' >
+						<div className='row' >
+							<div className='row-container' >
 								
-								<form id='contact-form' class='contact-form' action="https://formspree.io/f/#" method="POST" data-toggle='validator' >
+								<form id='contact-form' className='contact-form' action="https://formspree.io/f/#" method="POST" data-toggle='validator' >
 			
-									<div class='row' >
+									<div className='row' >
 										
-										<div class='col-md-6' >
+										<div className='col-md-6' >
 											
-											<div class='form-group' >
-												<input type='text' class='form-control' placeholder='Name' required name="name"></input>
+											<div className='form-group' >
+												<input type='text' className='form-control' placeholder='Name' required name="name"></input>
 												
-												<div class='help-block with-errors' ></div>
+												<div className='help-block with-errors' ></div>
 											</div>
 										
 										</div>
 										
-										<div class='col-md-6' >
-											<div class='form-group' >
-												<input type='email' class='form-control' placeholder='Email' required name="email"></input>
+										<div className='col-md-6' >
+											<div className='form-group' >
+												<input type='email' className='form-control' placeholder='Email' required name="email"></input>
 							
 											</div>
 										</div>
@@ -48,12 +48,12 @@ export const Contact = () => {
 									</div>
 									
 									
-									<div class='form-group' >
-										<textarea rows='5' class='form-control' placeholder='Message' required name="message"></textarea>
-										<div class='help-block with-errors' ></div>
+									<div className='form-group' >
+										<textarea rows='5' className='form-control' placeholder='Message' required name="message"></textarea>
+										<div className='help-block with-errors' ></div>
 									</div>
 									
-									<div class='form-group text-center' >
+									<div className='form-group text-center' >
                                         <input type="submit" value="Submit" id='btn'/>
 									</div>
 									

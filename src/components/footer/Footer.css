@@ -1,5 +1,35 @@
 .footer-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+   
+    background-color: black;
+    color: white;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.footer-container a{
+    text-decoration: none;
+}
+
+.footer-container .location{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.footer-container .location .socials{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    font-size: 40px;
+}
+
+.footer-container .about {
+    padding: 40px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    line-height: 40px;
 }

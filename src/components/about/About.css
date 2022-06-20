@@ -1,11 +1,17 @@
 
 
-.about {
+.aboutMain {
     display: grid;
     grid-template-columns: 1fr 1fr;
-   height: 30vh;
+   height: 50vh;
+   margin: 50px 0;
+   color: white;
+   padding: 30px;
+   background-color: rgb(42,163,201);
 }
 
-.about .left{
+.aboutMain .left, .right{
     text-align: center;
+    line-height: 30px;
+    align-self: center;
 }

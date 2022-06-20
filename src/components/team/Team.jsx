@@ -27,6 +27,17 @@ const Team = () => {
         <h1>
             Our Team
         </h1>
+
+        <div className="coordinators">
+            <div className="coordinator">
+                <img src="https://pbs.twimg.com/media/E2K8BVYVUAExUiE?format=jpg&name=360x360" alt="" />
+                <h3>Mr. Hari Ram Tiwari </h3>
+            </div>
+            <div className="coordinator">
+            <img src="https://pbs.twimg.com/media/E2K8BVYVUAExUiE?format=jpg&name=360x360" alt="" />
+                <h3>Mr. Toya Ghimire</h3>
+                </div>
+        </div>
    <div className="ProfileHolder">
    <div className="president box">
     <ProfileContainer name="Sulav" position = "President" />

@@ -4,6 +4,7 @@
     margin: 20px;
     display: grid;
     grid-template-columns: 1fr 2fr;
+    align-items: center;
 }
 
 
@@ -14,3 +15,4 @@
 #designation{
     font-size: 16px;
 }
+
