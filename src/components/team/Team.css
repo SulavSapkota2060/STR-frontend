@@ -6,10 +6,21 @@
     padding: 50px;
 }
 .ProfileHolder{
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
     align-items: center;
 }
+.ProfileHolder .executive{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
+}
+
+.ProfileHolder .members{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
 img{
     border-radius: 50%;
 }
