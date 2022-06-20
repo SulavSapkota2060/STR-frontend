@@ -1,5 +1,8 @@
 .contact-block{
-	padding-bottom: 100px;
+	padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .contact-section .section-header{
 	margin-bottom:60px;
@@ -19,11 +22,11 @@
 .contact-form .form-group{
 	margin-bottom:25px;
 }
-.contact-form .alert{
+.contact-form{
 	border-radius:0;
 }
-.contact-block{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#btn{
+    padding: 15px 20px 15px 20px;
+    border: 1px solid black;
+    background-color: transparent;
 }
