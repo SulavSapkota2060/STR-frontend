@@ -25,10 +25,8 @@ img{
     border-radius: 50%;
 }
 .ProfileContainer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 20px;
+    display: block;
+    text-align: center;
 }
 
 #name{
