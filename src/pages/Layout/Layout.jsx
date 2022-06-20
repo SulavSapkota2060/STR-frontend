@@ -5,6 +5,7 @@ import About from '../../components/about/About';
 import Projects from '../../components/projects/Projects';
 import Team from '../../components/team/Team'
 import Contact from '../../components/contact/Contact'
+import Footer from '../../components/footer/Footer'
 
 
 const Layout = () => {
@@ -18,6 +19,7 @@ const Layout = () => {
            <Projects />
            <Team />
            <Contact />
+           <Footer />
        </div>
     );
 }
