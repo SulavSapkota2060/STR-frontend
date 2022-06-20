@@ -20,10 +20,12 @@ ul{
 nav > img{
     padding: 15px;
 }
-a{
+nav  a{
     text-decoration: none !important;
     color: black !important;
+    padding: 0px 15px 0px 15px;
+
 }
-a:hover{
+nav  a:hover{
     font-weight: bold;
 }
