@@ -14,7 +14,7 @@ export const Footer = () => {
       <div className="location">
         <h4>Science, Technology and Robotics Club</h4>
         <div className="detail">
-        <i className="fa fa-phone"></i> &nbsp; <a href="tel:977-1-4371637">977-1-4371637</a>
+        <i className="fa fa-phone"></i> &nbsp; <a href="tel:977-1-4371637">+977-1-4371637</a>
         </div>
 
         <div className="detail">
@@ -31,9 +31,9 @@ export const Footer = () => {
        <i className="fa fa-map-marker"></i> &nbsp;  Budhanilkantha, Kathmandu, Nepal
         </div>
         <div className="detail socials">
-        <i className="fa fa-instagram"></i>
-        <i className="fa fa-facebook"></i>
-        <i className="fa fa-twitter"></i>
+        <a href="http://instagram.com/#" target="_blank" rel="noopener noreferrer"><i className="fa fa-instagram"></i></a>
+        <a href="http://facebook.com/#" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook"></i></a>
+        <a href="http://twitter.com/#" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter"></i></a>
         </div>
       </div>
 
