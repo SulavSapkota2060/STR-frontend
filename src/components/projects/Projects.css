@@ -1,6 +1,17 @@
 .projects{
     margin: 100px 20px;
     text-align: center;
+    background-color: white;
+    align-items: center;
+}
+
+
+.upcoming {
+    width: 100%;
+   text-align: center;
+   display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .projects .box {

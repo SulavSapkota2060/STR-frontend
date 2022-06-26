@@ -15,12 +15,13 @@ a {
 
 button{
     background: none;
-    border: 1px solid black;
     color: white;
     padding: 10px;
+    border-radius: 20px;
 }
 button:hover{
-    background-color: red;
+    background-color: rgb(8, 29, 36);
+    transition: 0.4s;
 }
 
 .box {
@@ -32,4 +33,19 @@ button:hover{
     align-items: center;
     border-radius: 20px;
     text-overflow: ellipsis;
+}
+
+
+.page-header{
+    text-align: center;
+    padding: 50px;
+    color: white;
+    background-color: rgb(8, 29, 36);
+    transform: skew(-5deg);
+    width: 50%;
+    margin: 50px auto;
+}
+
+a{
+    text-decoration: none
 }

@@ -4,6 +4,7 @@ import './Contact.css'
 export const Contact = () => {
   return (
     <div className='contact-block' >
+		 <a name="contact"></a>
 					<div className='container' >
 						<div className='row' >
 							<div className='row-container' >

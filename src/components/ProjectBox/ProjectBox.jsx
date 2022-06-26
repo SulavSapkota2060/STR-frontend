@@ -1,16 +1,18 @@
 import React from 'react'
+import './ProjectBox.css'
 
-const ProjectBox = () => {
+const ProjectBox = (props) => {
   return (
-    <div className="box">
+    <div className="projectbox box">
     <div className="image">
-        <img src="https://img.freepik.com/free-vector/quiz-comic-pop-art-style_175838-505.jpg?w=2000" alt="" />
+        <img src={props.img} alt="" />
     </div>
     <div className="text">
-        <h1>Event Name</h1>
-        <i>Date: </i>
-        <p>In enim enim ex mollit occaecat sunt et irure et ex tempor ullamco.</p>
+        <h1>{props.name}</h1>
+        <i>{props.date} </i>
+        <p>{props.details}</p>
     </div>
+    <button>Learn More!</button>
 </div>
   )
 }

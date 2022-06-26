@@ -4,23 +4,32 @@
 .container > h1{
     text-align: center;
     padding: 50px;
+    color: white;
+    background-color: rgb(8, 29, 36);
+    transform: skew(-5deg);
 }
 
 .container .coordinators{
     display: grid;
     grid-template-columns: 1fr 1fr;
     border: 1px solid #eee;
-    text-align: center;
     padding: 10px;
     font-size: 20px;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    
+
 }
 .container .coordinators img{
-    max-height: 50%;
+    max-height: 80%;
     margin: 10px;
 }
 .container .coordinators .coordinator{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr;
     align-items: center;
+    margin: auto;
 }
 
 

@@ -1,0 +1,20 @@
+.projectbox{
+    background-color: rgb(251, 252, 255);
+    height: 60vh;
+    width: 40vh;
+    
+}
+
+.projectbox button{
+    color: black;
+    border: 1px solid rgb(8, 29, 36);
+}
+
+.projectbox button:hover{
+    color: white;
+}
+.projectbox img{
+    border-radius: 0px;
+    width: 100% !important;
+    height: 100% !important;
+}
