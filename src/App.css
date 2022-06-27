@@ -7,21 +7,26 @@ html, body{
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none !important;
     font-size: 18px;
+    color: rgb(8, 29, 36);
+}
+
+a:hover{
     color: white !important;
 }
 
-
 button{
     background: none;
-    color: white;
+    color: rgb(8, 29, 36);
+    border: 1px solid rgb(8, 29, 36);
     padding: 10px;
     border-radius: 20px;
 }
 button:hover{
     background-color: rgb(8, 29, 36);
     transition: 0.4s;
+    color: white !important;
 }
 
 .box {
@@ -44,8 +49,4 @@ button:hover{
     transform: skew(-5deg);
     width: 50%;
     margin: 50px auto;
-}
-
-a{
-    text-decoration: none
 }

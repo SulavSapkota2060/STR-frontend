@@ -1,26 +1,30 @@
 import React from 'react';
-import Landing from '../Landing/Landing'
 import Navigation from '../../components/navigation/Navigation';
-import About from '../../components/about/About';
-import Projects from '../../components/projects/Projects';
-import Team from '../../components/team/Team'
-import Contact from '../../components/contact/Contact'
-import Footer from '../../components/footer/Footer'
+import Home from '../Home/Home';
+import EventPage from '../EventPage/EventPage';
+import Footer from '../../components/footer/Footer';
+import { BrowserRouter, Switch, Route,Routes} from 'react-router-dom';
 
 
 const Layout = () => {
 
 
     return(
+        <BrowserRouter>
        <div className="layout">
-           <Navigation />
-           <Landing />
-           <About />
-           <Projects />
-           <Team />
-           <Contact />
-           <Footer />
+        
+         <Navigation />
+        
+         <Routes>
+         <Route exact path='/' element={<Home />} />
+         <Route exact path='/eventDetails/:id' element={<EventPage />} />
+        </Routes>
+        <Footer />
+            
+
+          
        </div>
+       </BrowserRouter>
     );
 }
 

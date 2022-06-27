@@ -1,13 +1,16 @@
 .topnav {
   overflow: hidden;
   background-color: rgb(8, 29, 36);
-  position: relative;
+  padding: 5px;
+}
+.topnav img{
+  border-radius: 0px;
 }
 
 .topnav a {
-  float: left;
+  float: right;
   display: block;
-  color: #f2f2f2;
+  color: #f2f2f2 !important;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -16,7 +19,8 @@
 
 .topnav a:hover {
   background-color: #ddd;
-  color: black;
+  color: rgb(8, 29, 36) !important;
+  transition: 0.4s;
 }
 
 .topnav a.active {

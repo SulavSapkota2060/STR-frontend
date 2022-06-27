@@ -5,6 +5,12 @@
     align-items: center;
 }
 
+.projects a{
+    color: rgb(8, 29, 36);
+}
+.projects button:hover{
+    color: white !important;
+}
 
 .upcoming {
     width: 100%;

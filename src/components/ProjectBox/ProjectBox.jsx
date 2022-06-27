@@ -1,5 +1,6 @@
 import React from 'react'
 import './ProjectBox.css'
+import { Link } from 'react-router-dom'
 
 const ProjectBox = (props) => {
   return (
@@ -12,7 +13,7 @@ const ProjectBox = (props) => {
         <i>{props.date} </i>
         <p>{props.details}</p>
     </div>
-    <button>Learn More!</button>
+   <Link to={`eventDetails/${props.id}`}> <button>Learn More</button></Link>
 </div>
   )
 }

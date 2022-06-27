@@ -3,6 +3,7 @@ import './Navigation.css'
 import { useEffect } from 'react';
 
 const Navigation = () => {
+  const host = window.location.host;
 
   function myFunction() {
     var x = document.getElementById("myTopnav");
@@ -14,11 +15,17 @@ const Navigation = () => {
   }
   return (
     <div className="topnav" id="myTopnav">
-    <a href="#home" className="">Home</a>
-    <a href="#about">About</a>
-    <a href="#events">Events</a>
-    <a href="#team">Team</a>
-    <a href="#contact">Contact</a>
+    <img width={"60"} src="https://cdn.discordapp.com/attachments/988490207932342345/990957255497232454/logo-interim-removebg-preview2.png" alt="" />
+  
+   
+    <a href="/#contact">Contact</a>
+    <a href="/#team">Team</a>
+    <a href="/#events">Events</a>
+    <a href="/#about">About</a>
+    <a href="/#home" className="">Home</a>
+   
+   
+   
     <a href="javascript:void(0);" className="icon" onClick={myFunction}>
       <i className="fa fa-bars"></i>
     </a>

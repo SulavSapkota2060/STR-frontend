@@ -30,6 +30,11 @@
 
 
 }
+.landing a {
+    text-decoration: none !important;
+    font-size: 18px;
+    color: white;
+}
 .content h1{
     font-size: 100px;
     text-overflow:ellipsis;
