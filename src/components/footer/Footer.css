@@ -32,3 +32,16 @@
     grid-template-columns: 1fr;
     line-height: 40px;
 }
+
+
+
+@media screen and (max-width: 600px) {
+    .footer-container{
+       
+        display: grid;
+        grid-template-columns: 1fr ;
+        
+    
+    }
+   
+  }

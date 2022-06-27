@@ -64,3 +64,26 @@ img{
 #designation{
     font-size: 16px;
 }
+
+
+@media screen and (max-width: 600px) {
+    .container .coordinators{
+        display: grid;
+        grid-template-columns: 1fr ;
+       
+        
+    
+    }
+
+
+   
+  }
+  @media screen and (max-width: 1000px) {
+   
+.ProfileHolder{
+    display: grid;
+    grid-template-columns: 1fr ;
+    align-items: center;
+}
+   
+  }
