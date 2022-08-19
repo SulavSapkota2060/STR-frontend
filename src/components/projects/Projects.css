@@ -1,32 +1,34 @@
-.projects{
+.events{
     margin: 100px 20px;
     text-align: center;
     background-color: white;
-    align-items: center;
+    height: 80vh;
 }
 
-.projects a{
+.events a{
     color: rgb(8, 29, 36);
 }
-.projects button:hover{
+.events button:hover{
     color: white !important;
 }
 
-.upcoming {
-    width: 100%;
-   text-align: center;
-   display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-.projects .box {
-    border-radius: 0px !important;
-    
-   
-}
+
 
 .box img{
-    max-width: 90%;
-    max-height: 90%;
+    max-width: 100%;
+    max-height: 60%;
 }
+
+.upcoming {
+    height: 60vh;
+    overflow-y: scroll;
+
+}
+
+
+.events .eventsContent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+

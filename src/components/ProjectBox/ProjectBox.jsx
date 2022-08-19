@@ -9,11 +9,12 @@ const ProjectBox = (props) => {
         <img src={props.img} alt="" />
     </div>
     <div className="text">
-        <h1>{props.name}</h1>
+        <h5>{props.name}</h5>
         <i>{props.date} </i>
         <p>{props.details}</p>
+        <Link to={`eventDetails/${props.id}`}> <button id="primary">View</button></Link>
+
     </div>
-   <Link to={`eventDetails/${props.id}`}> <button>Learn More</button></Link>
 </div>
   )
 }

@@ -1,54 +1,49 @@
 
-.landing{
-    position: relative;
-    height: 100vh;  
-    background: url("https://images.unsplash.com/photo-1643780668909-580822430155?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
+
+.content{
+  
+    padding: 20px;
+    margin: 20% 20%;
+    font-family: "overpass";
+
 }
 
-.landing:before {
-    content: '';
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	background-image: linear-gradient(to bottom right,#002f4b,#000000);
-	opacity: .6; 
-  }
-.content{
-    position: absolute;
-    left: 20%;
-    top : 10%;
-    padding: 20px;
-    margin: 20px;
+.landing  button{
+    background-color:#124D87 ;
+    color: white !important;
+    padding: 10px;
+    font-family: monospace;
+    border: none;
+}
 
-
+.landing{
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: black;
 }
 .landing a {
     text-decoration: none !important;
-    font-size: 18px;
-    color: white;
+    font-size: 14px;
+    color: #124D87;
+    
+}
+.landing .image img{
+    border-radius: 40px;
+    height: 90%;
+    box-shadow:  10px 10px 10px #ccc;
 }
 .content h1{
-    font-size: 100px;
+    font-size: 80px;
     text-overflow:ellipsis;
-    width: 50%;
 }
 
 .content p{
-    font-style: italic;
+    color: #124D87;
+    margin-left: 10px;
 }
 
-.content .explore{
-    border: 2px solid rgb(8, 29, 36);
-    font-size: 20px;
-}
+
 @media screen and (max-width: 600px) {
 
     .content{

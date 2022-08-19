@@ -2,18 +2,27 @@
 
 .aboutMain {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-   height: 50vh;
+grid-template-columns: 1fr 1fr;
+   height: 100vh;
    margin: 50px 0;
-   color: white;
+   color: black;
    padding: 30px;
-   background-color: rgb(8, 29, 36);
 }
 
-.aboutMain .left, .right{
+.aboutMain img{
+    max-height: 90vh;
+}
+
+.aboutMain .Aboutcontent .socials i{
+    margin: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.aboutMain .Aboutcontent{
     text-align: center;
-    line-height: 30px;
+    line-height: 50px;
     align-self: center;
+    font-size: 20px;
 }
 
 

@@ -16,14 +16,14 @@ a:hover{
     color: white !important;
 }
 
-button{
+button#primary{
     background: none;
     color: rgb(8, 29, 36);
     border: 1px solid rgb(8, 29, 36);
     padding: 10px;
     border-radius: 20px;
 }
-button:hover{
+button#primary:hover{
     background-color: rgb(8, 29, 36);
     transition: 0.4s;
     color: white !important;
@@ -49,4 +49,9 @@ button:hover{
     transform: skew(-5deg);
     width: 50%;
     margin: 50px auto;
+}
+
+
+h1{
+    font-family: "overpass";
 }

@@ -7,10 +7,9 @@ const About = () => {
     <a name="about"></a>
       <div className="aboutMain">
      
-     <div className="left">
+     <div className="Aboutcontent">
        <h1>About Us</h1>
-     </div>
-     <div className="right">
+    
        <p>
          THe Science, Technology and Robotics club (S.T.R) is a student-run
          organization under the school's watcheye. Established in 1979, this
@@ -21,6 +20,16 @@ const About = () => {
          and opportunities to students in fields on science and technological
          advancements.
        </p>
+       Connect with us on: <br />
+      <div className="socials">
+      <i className="fa fa-facebook"></i>
+       <i className="fa fa-instagram"></i>
+       <i className="fa fa-twitter"></i>
+       <i className="fa fa-envelope"></i>
+      </div>
+     </div>
+     <div className="image">
+      <img src="https://cdn.dribbble.com/users/1539887/screenshots/15388855/media/89e7a326b6eee8d7bb0f4cfba4a05c40.jpg" alt="" />
      </div>
    </div>
   </div>

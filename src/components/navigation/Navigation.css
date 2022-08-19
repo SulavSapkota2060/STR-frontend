@@ -1,7 +1,8 @@
 .topnav {
   overflow: hidden;
-  background-color: rgb(8, 29, 36);
-  padding: 5px;
+  padding: 0px;
+  color: #124D87;
+  margin: 0px 30px;
 }
 .topnav img{
   border-radius: 0px;
@@ -10,11 +11,12 @@
 .topnav a {
   float: right;
   display: block;
-  color: #f2f2f2 !important;
   text-align: center;
-  padding: 14px 16px;
+  padding: 30px 36px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 18px;
+  font-family: monospace;
+  letter-spacing: 2px;
 }
 
 .topnav a:hover {
