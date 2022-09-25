@@ -15,7 +15,8 @@ export const Footer = () => {
 
 
   return (
-    <div className="footer-container">
+  <footer>
+      <div className="footer-container">
       <div className="map">
     {/*  <GoogleMapReact
           bootstrapURLKeys={{ key: /* YOUR KEY HERE 
@@ -70,6 +71,7 @@ export const Footer = () => {
 
 
     </div>
+  </footer>
   );
 };
 export default Footer;

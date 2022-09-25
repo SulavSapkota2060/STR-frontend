@@ -1,12 +1,16 @@
 import React from 'react';
 import "./EventPage.css";
-import events from '../../data/Events.json';
+import events from '../../data/Posts.json';
 import {useParams, Link} from 'react-router-dom'
+import ScrollToTop from '../../components/scrollToTop';
+import { useEffect } from 'react';
 
 const EventPage = ({match}) => {
   const id = useParams();
   const event = events.events.filter(e => e.id == id.id)[0];
   
+
+
   return (
     <div className='EventPage'>
        <h1>{event.name}</h1>
