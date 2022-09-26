@@ -1,6 +1,5 @@
 import React from "react";
 import "./Footer.css";
-import GoogleMapReact from 'google-map-react';
 
 
 export const Footer = () => {
