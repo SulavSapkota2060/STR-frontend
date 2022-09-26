@@ -9,6 +9,10 @@ const EventPage = ({match}) => {
   const id = useParams();
   const event = events.events.filter(e => e.id == id.id)[0];
   
+  useEffect(() => {
+    // 👇️ scroll to top on page load
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }, []);
 
 
   return (

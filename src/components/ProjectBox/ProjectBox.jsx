@@ -12,7 +12,7 @@ const ProjectBox = (props) => {
         <h5>{props.name}</h5>
         <i>{props.date} </i>
         <p>{props.details}</p>
-        <Link to={`eventDetails/${props.id}`}> <button id="primary">View</button></Link>
+        <Link to={`/eventDetails/${props.id}/`}> <button id="primary">View</button></Link>
 
     </div>
 </div>

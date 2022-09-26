@@ -17,6 +17,7 @@
   font-size: 18px;
   font-family: monospace;
   letter-spacing: 2px;
+  transition: 0.4s;
 }
 
 .topnav a:hover {

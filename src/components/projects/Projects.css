@@ -15,6 +15,7 @@
 
 
 
+
 .box img{
     max-width: 100%;
     max-height: 60%;
@@ -23,12 +24,37 @@
 .upcoming {
     height: 60vh;
     overflow-y: scroll;
-
+    scroll-behavior: smooth;
 }
 
+
+.upcoming .fa{
+    color: blue;
+}
 
 .events .eventsContent{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
+
+.events .right .downArrow{
+    background-color: #fff;
+    width: 40px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px #eee;
+    margin: auto;
+    margin-top: -30px;
+    cursor: pointer;
+}
+
+.events .right .upArrow{
+    background-color: #fff;
+    width: 40px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px #eee;
+    margin: auto;
+    cursor: pointer;
+}

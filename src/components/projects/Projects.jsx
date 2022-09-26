@@ -5,7 +5,11 @@ import events from '../../data/Events.json'
 
 const Projects = () => {
 
-
+  const scrollEvents = (direction) => {
+    const div = document.querySelector(".upcoming")
+   direction == "up" ? div.scrollTop = div.scrollTop-100 : div.scrollTop = div.scrollTop+100;
+    
+  }
 
   
   return (
@@ -20,14 +24,23 @@ const Projects = () => {
 
 
     <div className="right">
+    <div className="upArrow">
+    <i className="fa fa-arrow-up" onClick={() => scrollEvents("up")}></i>
+    </div>
     <div className="upcoming">
+   
+
        {events.events.map(event =>  
          <ProjectBox name={event.name} date={event.date} details={event.snippet} img={event.image_src} id={event.id} />
        
 )}
        
-      
+
     </div>
+    <div className="downArrow">
+    <i className="fa fa-arrow-down" onClick={() => scrollEvents("down")}></i>
+    </div>
+
     </div>
     </div>
   

@@ -26,6 +26,7 @@ const About = () => {
        <i className="fa fa-instagram"></i>
        <i className="fa fa-twitter"></i>
        <i className="fa fa-envelope"></i>
+       
       </div>
      </div>
      <div className="image">
