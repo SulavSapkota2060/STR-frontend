@@ -1,12 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { useEffect } from "react";
 import "./PostBox.css";
 
 const PostBox = (props) => {
-  useEffect(() => {
-    console.log(props);
-  }, []);
   return (
     <div className="postBox">
       <div className="image">

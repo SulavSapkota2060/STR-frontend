@@ -2,13 +2,13 @@ import React, { useEffect, useState } from "react";
 import PostBox from "../../components/PostBox/PostBox";
 import "./Posts.css";
 import FetchPosts from "../../data/Posts.json";
+import { getPosts } from "../../api/API";
 
 const Posts = () => {
   const [posts, changePosts] = useState([]);
 
   useEffect(() => {
-    changePosts(FetchPosts.events);
-    console.log(FetchPosts.events);
+    getPosts().then((res) => changePosts(res));
   }, []);
 
   return (
@@ -18,9 +18,9 @@ const Posts = () => {
         {posts.map((post) => {
           return (
             <PostBox
-              image_url={post.image_src}
-              title={post.name}
-              date={post.date}
+              image_url={post.thumbnail_image}
+              title={post.title}
+              date={post.pub_date}
               id={post.id}
             />
           );

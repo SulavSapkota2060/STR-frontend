@@ -9,6 +9,8 @@
     transform: skew(-5deg);
 }
 
+
+
 .container .coordinators{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -21,22 +23,36 @@
     
 
 }
+
+
 .container .coordinators img{
-    max-height: 80%;
-    margin: 10px;
+    height: 30vh;
+    width: 30vh;
+    border-radius: 50%;
+    object-fit: cover;
+  
 }
 .container .coordinators .coordinator{
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
     margin: auto;
+    
+
+   
 }
 
+.container .coordinators .coordinator h3{
+    margin: 40px auto ;
+    font-family: "";
+}
 
 .ProfileHolder{
     display: grid;
-    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
+    margin: auto;
+    
 }
 .ProfileHolder .executive{
     display: grid;
@@ -44,13 +60,11 @@
     margin: 10px;
 }
 
-.ProfileHolder .members{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-}
+
 
 .ProfileHolder img{
     border-radius: 50%;
+    object-fit: contain;
 }
 .ProfileContainer{
     display: block;
